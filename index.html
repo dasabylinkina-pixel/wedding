@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Свадьба Данилы и Дарьи</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Cormorant+Garamond&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+<style>
+
+/* ================= ОСНОВНОЙ ФОН ================= */
+
+body{
+    margin:0;
+    font-family:'Cormorant Garamond', serif;
+    color:#2b2b2b;
+
+    /* фон как на картинке */
+    background:
+    radial-gradient(rgba(201,164,106,.12) 1px, transparent 1px),
+    radial-gradient(rgba(201,164,106,.06) 1px, transparent 1px),
+    linear-gradient(135deg,#F3ECE4 25%,#F7F1E8 25%,#F7F1E8 50%,#F3ECE4 50%,#F3ECE4 75%,#F7F1E8 75%);
+    background-size:140px 140px,200px 200px,300px 300px;
+}
+
+/* ================= БЕЖЕВАЯ СКРОЛЛ-ЛЕНТА ================= */
+
+.scroll{
+    max-width:720px;
+    margin:auto;
+    padding:120px 70px;
+
+    background:#F6EFE6;
+    box-shadow:
+        0 40px 90px rgba(0,0,0,.18),
+        inset 0 0 80px rgba(0,0,0,.05);
+}
+
+/* ================= TYPOGRAPHY ================= */
+
+.small-title{
+    font-family:'Montserrat',sans-serif;
+    letter-spacing:7px;
+    font-size:15px;
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.names{
+    font-family:'Playfair Display',serif;
+    font-size:68px;
+    text-align:center;
+    margin:30px 0;
+}
+
+h2{
+    font-family:'Playfair Display',serif;
+    text-align:center;
+    font-size:44px;
+    margin:90px 0 40px;
+}
+
+p{
+    font-size:22px;
+    line-height:1.9;
+    text-align:center;
+    max-width:520px;
+    margin:0 auto 28px;
+}
+
+.quote{
+    font-style:italic;
+    line-height:2.1;
+}
+
+.gold{ color:#C9A46A; }
+
+.info-page p{
+    font-size:25px;
+    line-height:2.05;
+}
+
+/* ================= ELEMENTS ================= */
+
+.divider{
+    width:140px;
+    height:1px;
+    background:#C9A46A;
+    margin:60px auto;
+    position:relative;
+}
+
+.divider:after{
+    content:"✦";
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    top:-14px;
+    color:#C9A46A;
+}
+
+.flower{
+    text-align:center;
+    color:#C9A46A;
+    font-size:22px;
+}
+
+.palette{
+    display:flex;
+    justify-content:center;
+    gap:24px;
+    margin:25px 0 55px;
+}
+
+.color{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    box-shadow:0 10px 20px rgba(0,0,0,.25);
+}
+
+.info{
+    margin:48px 0;
+}
+
+.icon{
+    font-size:28px;
+    color:#C9A46A;
+    margin-bottom:12px;
+}
+
+.big-date{
+    font-family:'Playfair Display',serif;
+    font-size:54px;
+    color:#C9A46A;
+    text-align:center;
+    margin-bottom:45px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="scroll">
+
+<div class="small-title">СВАДЕБНОЕ ПРИГЛАШЕНИЕ</div>
+
+<p>С радостью приглашаем вас разделить с нами день,<br>
+с которого начинается наша семья</p>
+
+<div class="names">
+Данила <span class="gold">&</span> Дарья
+</div>
+
+<p class="quote">
+Иногда один день меняет всё.<br>
+Для нас — это будет именно он.
+</p>
+
+<div class="divider"></div>
+
+<p>
+20 июня 2026 • 15:00<br>
+Раменское<br>
+Ресторан «Маради»
+</p>
+
+<!-- ===== БЛОК 2 ===== -->
+
+<div class="flower">❀ ❀ ❀</div>
+
+<h2>Цветы прекрасны,<br>
+но так быстротечны</h2>
+
+<p>
+✦ Если вы захотите порадовать нас,<br>
+мы будем благодарны за финансовый вклад<br>
+в начало нашей семьи.
+</p>
+
+<div class="divider"></div>
+
+<p class="quote">
+✦ Пусть шампанское искрится в бокалах,<br>
+мы желаем, что бы каждый момент этого дня сохранился в вашей памяти
+</p>
+
+<!-- ===== ДРЕСС-КОД ===== -->
+
+<div class="flower">❀ ❀ ❀</div>
+
+<h2>Дресс-код</h2>
+
+<p>Будем рады видеть вас в оттенках нашей палитры</p>
+
+
+<div class="palette">
+<div class="color" style="background:#e8d8c3;"></div>
+  
+<div class="color" style="background:#7A1E26;"></div>
+  
+<div class="color" style="background:#000;"></div>
+</div>
+
+
+<!-- ===== ИНФО ===== -->
+
+<h2>Всё, что нужно знать</h2>
+
+<div class="info">
+<div class="icon">📅</div>
+<p>20 июня 2026<br>
+Сбор гостей с 14:30 • Начало в 15:00</p>
+</div>
+
+<div class="info">
+<div class="icon">📍</div>
+<p>Ресторан «Маради»<br>
+Московская область, Раменское,<br>
+ул. Михалевича, 72</p>
+</div>
+
+<div class="info">
+<div class="icon">👗</div>
+<p>Вечерний образ (в палитре выше)</p>
+</div>
+
+<!-- ===== RSVP ===== -->
+
+<h2>Подтвердите участие</h2>
+
+<div class="big-date">до 30 апреля 2026</div>
+
+<div class="divider"></div>
+
+<p>
+Будем благодарны, если вы сообщите,<br>
+сможете ли быть с нами в этот день.
+</p>
+
+<p>С любовью, Данила и Дарья ✦</p>
+
+</div>
+
+</body>
+</html>
